@@ -1,9 +1,9 @@
 resource "aws_instance" "demo" {
-					ami 				      =     "ami-0509f816fdd94dec7"
+					ami 				      =     "ami-0a531e5afd4d5f3ad"
 					instance_type		      =     "t2.micro"
 					monitoring			      =     "false"
 					key_name			      =     "gel"
-					subnet_id			      =     "subnet-0170235fe2e11f4a0"
+					subnet_id			      =     "subnet-006956d784051a51c"
 					associate_public_ip_address   =     "true"
 					source_dest_check		      =     "true"
 					root_block_device {
