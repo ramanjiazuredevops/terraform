@@ -1,0 +1,9 @@
+yum install unzip -y
+
+cd /opt
+
+mkdir sonar-scanner
+
+wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.2.0.1873-linux.zip
+
+
